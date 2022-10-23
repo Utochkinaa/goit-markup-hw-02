@@ -1,27 +1,27 @@
-
-
 .body {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   font-size: 14px;
   font-family: roboto;
   color: #212121;
 }
 
 .hero {
-  background-color: #2F303A;
+  background-color: #2f303a;
 }
 
 .title {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 900;
   font-size: 44px;
+  line-height: calc(60 / 44);
   text-align: center;
 }
 
 .logo {
   font-style: Bold;
   font-size: 26px;
-  color: #2196F3;
+  font-weight: 400;
+  color: #2196f3;
   text-decoration: none;
   font-family: raleway;
   line-height: 1.19;
@@ -30,6 +30,7 @@
 .logo-header {
   color: #000000;
   font-family: raleway;
+  font-weight: 400;
   line-height: 1.19;
 }
 
@@ -37,39 +38,47 @@
   font-weight: 500;
   line-height: 1.14;
 }
-.link-nav:hover, .link-nav:focus {
-  color: #2196F3;
+.link-nav:hover,
+.link-nav:focus {
+  color: #2196f3;
 }
 .link-nav {
   text-decoration: none;
   color: #212121;
 }
 
-.list-nav, .list-item, .list, .contacts-list, .btn-list {
+.list-nav,
+.list-item,
+.list,
+.contacts-list,
+.btn-list,
+.work-list {
   list-style: none;
   font-style: normal;
 }
 
-.link-contact:hover, .link-contact:focus {
-  color: #2196F3;
+.link-contact:hover,
+.link-contact:focus {
+  color: #2196f3;
 }
 .link-contact {
   font-size: 14px;
   font-weight: 500;
-  line-height: calc(16/14);
+  line-height: calc(16 / 14);
   text-decoration: none;
   color: #757575;
 }
 
 .btn-hero {
-  background-color: #2196F3;
-  color: #FFFFFF;
+  font-family: inherit;
+  background-color: #2196f3;
+  color: #ffffff;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.88;
+  line-height: calc(30 / 16);
   text-align: center;
   cursor: pointer;
-  Letter spacing: 6%
+  letter-spacing: 6%;
 }
 
 .subtitle {
@@ -93,11 +102,11 @@
 }
 
 .team {
-  background-color: #F5F4FA
+  background-color: #f5f4fa;
 }
 
 .team-list {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .team-name {
@@ -114,28 +123,26 @@
 }
 
 .footer {
-  background-color: #2F303A;
+  background-color: #2f303a;
 }
 
 .logo-accent {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: raleway;
-  line-height: 1.19;
+  line-height: calc(31 / 26);
 }
 
 .address {
   font-size: 14px;
   font-weight: 400;
-  line-height: calc(24/14);
+  line-height: calc(24 / 14);
   text-decoration: none;
-  color: #FFFFFF;
-  
-
+  color: #ffffff;
 }
 .contacts {
   font-size: 14px;
   font-weight: 400;
-  line-height: calc(24/14);
+  line-height: calc(24 / 14);
   text-decoration: none;
   color: #757575;
 }
@@ -143,19 +150,33 @@
 /* Portfolio Buttons */
 
 .btn-filter {
-  font-family: roboto;
-  background-color: #F5F4FA;
+  font-family: inherit;
+  background-color: #f5f4fa;
   color: #212121;
   font-size: 16px;
   font-weight: 500;
-  line-height: calc(26/16);
+  line-height: calc(26 / 16);
   text-align: center;
   cursor: pointer;
   border: none;
 }
 
-.btn-filter:hover, 
+.btn-filter:hover,
 .btn-filter:focus {
-color: #FFFFFF;
-background-color: #2196F3;
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.project-name {
+  font-style: bold;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: calc(36 / 18);
+}
+
+.work-type {
+  color: #757575;
+  font-style: regular;
+  font-size: 16px;
+  line-height: calc(30 / 16);
 }
